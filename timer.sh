@@ -17,6 +17,7 @@ do
 	sleep 1
 done
 
-echo -e "\nTime's up!"
+echo -e "\rTime's up!          "
 
-ffplay -nodisp -autoexit klee.m4a
+ffplay -nodisp -autoexit -loglevel quiet sound.mp3
+
