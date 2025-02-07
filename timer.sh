@@ -21,3 +21,5 @@ echo -e "\rTime's up!          "
 
 ffplay -nodisp -autoexit -loglevel quiet sound.mp3
 
+notify-send "Pomodoro Timer" "Time's up! "
+
